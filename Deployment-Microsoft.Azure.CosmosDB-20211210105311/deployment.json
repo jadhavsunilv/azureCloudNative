@@ -1,0 +1,63 @@
+{
+  "id": "/subscriptions/5fc1d487-4d5f-46ff-acf1-e4948cda3beb/resourceGroups/cosmosdb/providers/Microsoft.Resources/deployments/Microsoft.Azure.CosmosDB-20211210105311",
+  "name": "Microsoft.Azure.CosmosDB-20211210105311",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/5fc1d487-4d5f-46ff-acf1-e4948cda3beb/resourcegroups/cosmosdb/providers/Microsoft.DocumentDB/databaseAccounts/cosmosdbdemo",
+    "marketplaceItemId": "Microsoft.DocumentDB"
+  },
+  "properties": {
+    "templateHash": "4919597668895787438",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "cosmosdbdemo"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "locationName": {
+        "type": "String",
+        "value": "East US"
+      },
+      "defaultExperience": {
+        "type": "String",
+        "value": "Core (SQL)"
+      },
+      "isZoneRedundant": {
+        "type": "String",
+        "value": "false"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2021-12-10T05:26:08.3773983Z",
+    "duration": "PT2M46.583302S",
+    "correlationId": "606ff48d-7601-456b-b2e2-4b5e26a15e93",
+    "providers": [
+      {
+        "namespace": "Microsoft.DocumentDb",
+        "resourceTypes": [
+          {
+            "resourceType": "databaseAccounts",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/5fc1d487-4d5f-46ff-acf1-e4948cda3beb/resourceGroups/cosmosdb/providers/Microsoft.DocumentDb/databaseAccounts/cosmosdbdemo"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

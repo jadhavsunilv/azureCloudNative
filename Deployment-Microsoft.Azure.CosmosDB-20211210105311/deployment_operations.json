@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/5fc1d487-4d5f-46ff-acf1-e4948cda3beb/resourceGroups/cosmosdb/providers/Microsoft.Resources/deployments/Microsoft.Azure.CosmosDB-20211210105311/operations/485A51E475C4C13C",
+    "operationId": "485A51E475C4C13C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-10T05:26:08.2120577Z",
+      "duration": "PT2M44.636704S",
+      "trackingId": "aed208f3-743f-41fe-aa39-79f2cb835149",
+      "serviceRequestId": "dcdd9cef-fdc2-4fdc-ae78-18188b956dfe",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/5fc1d487-4d5f-46ff-acf1-e4948cda3beb/resourceGroups/cosmosdb/providers/Microsoft.DocumentDb/databaseAccounts/cosmosdbdemo",
+        "resourceType": "Microsoft.DocumentDb/databaseAccounts",
+        "resourceName": "cosmosdbdemo"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/5fc1d487-4d5f-46ff-acf1-e4948cda3beb/resourceGroups/cosmosdb/providers/Microsoft.Resources/deployments/Microsoft.Azure.CosmosDB-20211210105311/operations/08585624930858254054",
+    "operationId": "08585624930858254054",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2021-12-10T05:26:08.3430479Z",
+      "duration": "PT2M44.7676942S",
+      "trackingId": "47afce32-37b3-409f-885c-dbc0a7db4947",
+      "statusCode": "OK"
+    }
+  }
+]
