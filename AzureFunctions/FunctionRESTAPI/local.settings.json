@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  },
+  "ConnectionStrings": {
+    "DbConnection": "data source=sunil\\SqlExpress; initial catalog=FunctionApp;integrated security=True;"
+  },
+  "Host": {
+    "CORS": "*"
+  }
+}
