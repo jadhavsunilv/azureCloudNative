@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sender", "Sender\Sender.csproj", "{CF360E2B-E9A3-42D2-872C-9CDD75118457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{6B02268B-6D76-465F-980C-C2797896C465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceBusLib", "ServiceBusLib\ServiceBusLib.csproj", "{38544471-64CA-4250-ADE7-CCACA39ECCCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF360E2B-E9A3-42D2-872C-9CDD75118457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF360E2B-E9A3-42D2-872C-9CDD75118457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF360E2B-E9A3-42D2-872C-9CDD75118457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF360E2B-E9A3-42D2-872C-9CDD75118457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B02268B-6D76-465F-980C-C2797896C465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B02268B-6D76-465F-980C-C2797896C465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B02268B-6D76-465F-980C-C2797896C465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B02268B-6D76-465F-980C-C2797896C465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38544471-64CA-4250-ADE7-CCACA39ECCCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38544471-64CA-4250-ADE7-CCACA39ECCCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38544471-64CA-4250-ADE7-CCACA39ECCCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38544471-64CA-4250-ADE7-CCACA39ECCCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA6BE303-0089-4AEC-BA4C-C63B8293437E}
+	EndGlobalSection
+EndGlobal
